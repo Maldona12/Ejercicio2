@@ -1,2 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace Ejercicio2{
+  class Program{
+
+    static void Main(string[] args){
+
+      Menu menu = new Menu();
+      bool mostrarMenu = true;
+      while(mostrarMenu){
+        mostrarMenu = menu.ShowMenu();
+      }
+    }
+
+  }
+}
